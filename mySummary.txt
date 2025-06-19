@@ -1,0 +1,10 @@
+requirements:-
+npm i @reduxjs/toolkit react-redux react-router-dom appwrite @tinymce/tinymce-react html-react-parser react-hook-form
+
+- Appwrite, a backend-as-a-service platform
+
+1. create a project on appwrite.
+2. make a .env file react.
+3. copy URL for VITE_APPWRITE_URL and ID for VITE_APPWRITE_PROJECT_ID from the setting.
+4. then get VITE_APPWRITE_DATABASE_ID, VITE_APPWRITE_COLLECTION_ID ,VITE_APPWRITE_BUCKET_ID.
+5. then make a file "conf.js", load and cast environment variables into string then bundle them in an onject so it can be imported and used elsewhere in the app.
